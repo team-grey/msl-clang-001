@@ -16,7 +16,7 @@ Node *right - Holds a pointer to the right node.
 ###Functions:
 void findAndInsert - Looks for the node that contains the word in the tree.  If the word cannot be found (it reaches a null
 pointer in the tree), calls the corresponding insertNode function to place the new word in.  Takes a Node* (tree) and a
-char* (word) as an argument.
+char* (word) as an argument
 
 void insertNodeLeft - Creates a node to contain the new word in the left pointer of the node received by this function.
 Takes a Node* (the node with a null pointer to the left of it) and a char* (word) as an argument.
