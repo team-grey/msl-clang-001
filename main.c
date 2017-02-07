@@ -61,7 +61,7 @@ int main(int argc, char **argv) {
     printf("%s\n", argv[0]);
     FILE *fi, *fo;
     char buffer [100];/*Imposed word limit needed here.*/
-    fi = fopen(argv[1], "input02.txt");/*Open input file*/
+    fi = fopen("input01.txt", "r");/*Open input file*/
     if(fi == NULL){
         printf("File not found.");
         exit(1);
